@@ -1,0 +1,10 @@
+﻿#main {
+	background-image: none;
+}
+#quick {
+	position: relative;
+	bottom: 100px;
+}
+#quick a {
+	position: static;
+}

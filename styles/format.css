@@ -1,0 +1,12 @@
+﻿* {
+	border: none;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font-weight: normal;
+	text-decoration: none;
+	text-indent: 0;	
+}
+body {
+	font-size: small;
+}

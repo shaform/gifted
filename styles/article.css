@@ -1,0 +1,126 @@
+﻿@import url(format.css);
+dl#menu {
+	float: right;
+	width: 200px;
+	padding: 20px;
+}
+dl#menu dd {
+	margin-bottom: 10px;
+	color: #777;
+}
+dl#menu dt:hover + dd, #menu dd:hover {
+	color: #444;
+}
+#menu:hover a {
+	text-decoration: underline;
+}
+#menu:hover a:visited {
+	text-decoration: none;
+}
+#indext {
+	background-color: #FFF;
+	border: 1px solid #FFF;
+	padding: 2px 5px;
+	height: 20px;
+}
+#indext li {
+	display: inline;
+	margin-right: 10px;
+	color: #333;
+}
+#indext li + li:before {
+	content: " > ";
+}
+#indext li a {
+	color: #999;
+}
+#indext li a:hover {
+	color: inherit;
+}
+
+
+#page {
+	width: 700px;
+	margin: 0 auto;
+	background-color: #FFF;
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	border-left: 10px #000 solid;
+}
+
+body {
+	margin: 20px 0 20px 0;
+	background-color: #EEE;
+}
+#main {
+	padding: 10px;
+	background-image: url(../images/fade.png);
+	background-repeat: repeat-x;
+}
+#main a {
+	color: #789;
+}
+#main a:link {
+	color: #036;
+}
+#main p:hover a {
+	color: #036;
+	text-decoration: underline;
+}
+#main a:hover {
+	color: #269;
+}
+#header {
+	height: 233px;
+}
+#header span {
+	display: none;
+}
+
+h1 {
+	font-size: medium;
+	color: #269;
+}
+h1 + p {
+	margin: 0;
+	margin-bottom: 5em;
+	color: #777;
+	font-size: 9pt;
+}
+p {
+	text-indent: 2em;
+	margin: 20px;
+}
+#footer {
+	clear: both;
+	text-align: right;
+	color: #AAA;
+}
+#quick {
+	padding-left: 728px;
+	width: 16px;
+	margin: 0 auto;
+	margin-bottom: -20px;
+}
+#quick a {
+	position: fixed;
+	bottom: 20px;
+	display: block;
+	background-color: #000;
+	background-image: url(../images/top.gif);
+	width: 15px;
+	height: 40px;
+	border-left: 1px #000 solid;
+}
+#quick a:first-child {
+	background-image: url(../images/index.gif);
+	bottom: 61px;
+}
+#quick a:hover {
+	background-color: #272727;
+}
+
+#quick a span {
+	display: none;
+}

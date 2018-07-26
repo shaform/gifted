@@ -1,0 +1,35 @@
+﻿@import url(format.css);
+html {
+	overflow: auto;
+	background-color: #444;
+}
+body {
+}
+div#opening {
+	background-color: #000;
+	height: 400px;
+	width: 100%;
+	text-align: center;
+	margin-top: -200px;
+	position: absolute;
+	top: 50%;
+	color: #FFF;
+}
+div.column {
+	text-align: center;
+	width: 100%;
+	color: #CCC;
+	position: absolute;
+	top: 5px;
+}
+div.ie {
+	color: #666;
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	right: 0;
+}
+div.ie a {
+	color: #666;
+	text-decoration: underline;
+}

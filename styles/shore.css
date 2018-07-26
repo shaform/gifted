@@ -1,0 +1,20 @@
+﻿@import url(article.css);
+body {
+	background-color: #012;
+}
+#page #header {
+	background-image: url(../images/shore.jpg);
+	background-color: #A8B8C7;
+}
+#page {
+	background-image: url(../images/photo4.jpg);
+}
+#menu a {
+	color: #89A;
+}
+#menu a:link, #menu:hover a {
+	color: #383472;
+}
+#menu a:hover {
+	color: #000;
+}
